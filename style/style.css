@@ -1,0 +1,339 @@
+main{
+    background-color: rgb(29, 28, 28);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.superior{
+    background-color: rgb(29, 28, 28);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video{
+    margin-top: 12px;
+    margin-left: 84px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lateral{
+    margin-top: 12px;
+    margin-left: 13px;
+    width: 25%;
+    height: 1150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recomendado1{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    display: flex;
+}
+
+.recomendado2{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado3{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado4{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado5{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado6{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado7{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado8{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.recomendado9{
+    width: 95%;
+    height: 96px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.thumbnail{
+    width: 46%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url('/assets/exe.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.minidesk{
+    width: 54%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.thumbtitle{
+    margin-left: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.thumbchannel{
+    margin-left: 5px;
+    font-family: Arial;
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.thumbviews{
+    margin-left: 5px;
+    font-family: Arial;
+    color: #AAAAAA;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+
+
+
+.sidebar-toggle {
+    margin-left: 20px;
+  }
+  
+  .toggle-button,
+  .close-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .toggle-button:hover{
+    background-color: rgba(255, 255, 255, 0.318);
+    transition: ease all, 0.5s;
+  }
+
+  .close-button:hover{
+    background-color: white;
+    color: black;
+    transition: ease all, 0.5s;
+  }
+  
+  .sidebar {
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  ul li i {
+    margin-right: 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+  }
+
+
+  .search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 35%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgb(69, 69, 69);
+    font-size: 14px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    margin-left: -140px;
+  }
+  
+  .search-bar .search-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(67, 65, 65);
+    color: rgba(255, 255, 255, 0.777);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar .search-button i {
+    font-size: 18px;
+  }
+
+
+  .descricao{
+    width: 930px;
+    height: 500px;
+    margin-left: 84px;
+    margin-top: -620px;
+  }
+
+  .barracanal{
+    margin-top: 10px;
+  }
+
+  .titulo{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    display: inline-block;
+  }
+
+  .canal{
+    display: inline-block;
+    background-image: url(/assets/sony.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50px;
+    vertical-align: top;
+  }
+
+  .nome{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+  }
+
+  .inscritos{
+    margin-top: 5px;
+    font-family: Arial;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+  }
+
+  .info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+
+  .ferramentas {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .inscrever{
+    background-color: white;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+  }
